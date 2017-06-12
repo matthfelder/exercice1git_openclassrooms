@@ -1,0 +1,579 @@
+@charset "utf-8";
+/* ------------------------------------ */
+/* |           General                | */
+/* ------------------------------------ */
+
+html {
+
+}
+body {
+width:auto;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+padding:0px;
+margin:0px;
+
+background:#8d6f4c url(../images/fond.gif) repeat-x top;
+
+}
+kbd {
+font-size : 1em;
+line-height:2em;
+padding: 0px 2px;
+border: 1px solid gray;
+background-color:#CCCCCC;
+}
+h4 {
+font-size:1.5em;
+color:#000000;
+text-transform:uppercase;
+border-bottom: medium #8d6f4c solid;
+text-align:left;
+}
+h5 {
+font-size:1.2em;
+color:#000000;
+margin-bottom:2px;
+}
+
+#page{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:900px;
+}
+
+#contenaire {
+position: absolute;
+top:0px;
+left:0px;
+width:900px;
+height:auto;
+background-color:#000000;
+padding:0px;
+margin:0px;
+}
+
+/* ------------------------------------ */
+/* |           HAUT DE PAGE           | */
+/* ------------------------------------ */
+
+#header {
+position:relative;
+height:58px;
+width:900px;
+
+}
+
+#header h1{
+line-height: 0px;
+font-size:0px;
+text-indent:-5000px;
+}
+
+#header h1 a{
+position:absolute;
+top:0px;
+left:9px;
+background:url(../images/pageperso_02.gif) no-repeat;
+height:58px;
+width:231px;}
+
+#header h1 a:hover{
+background:url(../images/pageperso_02hover.gif) no-repeat;
+}
+
+#header h2{
+line-height: 0px;
+font-size:0px;
+text-indent:-5000px;
+}
+#header h2 a{
+position:absolute;
+top:22px;
+left:241px;
+background:url(../images/pageperso_04.gif) no-repeat;
+height:13px;
+width:292px;
+
+}
+#easy-access {
+z-index:20;
+font-size:0.7em;
+position:absolute;
+top:47px;
+right:10px;
+
+
+}
+#easy-access a {
+
+text-decoration:none;
+color:#f1d3b0;
+margin-right:4px;
+}
+
+
+					/* ------------------------------------ */
+					/* |                MENU              | */
+					/* ------------------------------------ */	
+
+					#menu {
+					position:relative;
+					height:223px;
+					width:900px;
+					background: #000000 url(../images/pageperso_08.gif) no-repeat;
+					}
+					
+					
+					#menu ul{
+					list-style-type: none;
+					text-align: left;
+					margin-left:-30px;
+					
+					}
+					#menu li{
+					list-style-type: none;
+					text-decoration:none;
+					text-indent:-5000px;
+					font-size:0px;
+					}
+					
+					.cv {
+					position:absolute;
+					width : 55px;
+					height: 40px;
+					top: 93px;
+					left:295px;
+					
+					
+					/*border: 1px dotted blue;*/ }
+					a.cv:hover {
+					background:url(../images/cv.gif) no-repeat; }
+					
+					.book {
+					position:absolute; 
+					width : 90px;
+					height: 50px;
+					left: 11px;
+					top: 82px;
+					
+					/*border: 1px dotted blue; */
+					}
+					a.book:hover{
+					background:url(../images/book.gif) no-repeat; }
+					
+					.contact {
+					position:absolute;  
+					width : 50px;
+					height: 32px;
+					left: 672px;
+					top: 159px;
+					/*border: 1px dotted blue; */
+					}
+					a.contact:hover{
+					background:url(../images/contact.gif) no-repeat  ; }
+					
+						
+					/* ------------------------------------ */
+					/* |           SOUS MENU              | */
+					/* ------------------------------------ */					
+					#sous_menu{
+					list-style-type: none;
+					text-align: left;
+					margin-bottom:100px;
+					}
+					
+					#sous_menu li{
+					list-style-type: none;
+					text-decoration:none;
+					text-indent:-5000px;
+					font-size:0px;
+					}
+					
+					.multimedia {
+					position:absolute;
+					width : 97px;
+					height: 60px;
+					top: 135px;
+					left:200px;
+					background: url(../images/sous_menu_13.gif) no-repeat;
+					}
+					.multimedia2 {
+					position:absolute;
+					width : 97px;
+					height: 60px;
+					top: 135px;
+					left:200px;
+					background: url(../images/sous_menu_active_13.gif) no-repeat;
+					}
+					a.multimedia:hover{
+					background: url(../images/sous_menu_active_13.gif) no-repeat;
+					}
+					
+					.infographie {
+					position:absolute;
+					width : 112px;
+					height: 42px;
+					
+					top: 140px;
+					left:311px;
+					background: url(../images/sous_menu_18.gif) no-repeat;
+					}
+					a.infographie:hover{
+					background: url(../images/sous_menu_active_18.gif) no-repeat;
+					}
+					.infographie2 {
+					position:absolute;
+					width : 112px;
+					height: 42px;
+					
+					top: 140px;
+					left:311px;
+					background: url(../images/sous_menu_active_18.gif) no-repeat;
+					}
+					.edition {
+					position:absolute;
+					width : 112px;
+					height: 51px;
+					top: 132px;
+					left:435px;
+					background: url(../images/sous_menu_15.gif) no-repeat;
+					}
+					a.edition:hover{
+					background: url(../images/sous_menu_active_15.gif) no-repeat;
+					}
+					
+					.edition2 {
+					position:absolute;
+					width : 112px;
+					height: 51px;
+					top: 132px;
+					left:435px;
+					background: url(../images/sous_menu_active_15.gif) no-repeat;
+					}
+					.photographie {
+					position:absolute;
+					width : 111px;
+					height: 50px;
+					top: 130px;
+					left:560px;
+					background: url(../images/sous_menu_21.gif) no-repeat;
+					}
+					a.photographie:hover{
+					background: url(../images/sous_menu_active_21.gif) no-repeat;
+					}
+					
+					.photographie2 {
+					position:absolute;
+					width : 111px;
+					height: 50px;
+					top: 130px;
+					left:560px;
+					background: url(../images/sous_menu_active_21.gif) no-repeat;
+					}
+					
+/* ------------------------------------ */
+/* |           contenu             | */
+/* ------------------------------------ */
+
+#contenu {
+
+margin-left:auto;
+margin-right:auto;
+width:882px;
+background-color:#f1d3b0;
+color:#000000;
+height:auto;
+
+}
+#cvphoto {
+background:#f1d3b0 url(../images/matt.gif) right no-repeat;
+}
+
+				
+					/* ------------------------------------ */
+					/* |       Titres de section          | */
+					/* ------------------------------------ */	
+					h3.webautauring {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background:url(../images/pageperso_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.curriculum {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/curriulum_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.realisation {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/realisation_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.access {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/access_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.liens {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/liens_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.contact2 {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/contact_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+					h3.plan {
+					line-height: 0px;
+					font-size:0px;
+					text-indent:-5000px;
+					background: url(../images/plan_10.gif) no-repeat;
+					height:56px;
+					width:882px;
+					}
+
+#texte {
+margin-top:15px;
+margin-right:20px;
+margin-left:15px;
+font-size:0.8em;
+height:auto;
+}
+	#texte p{
+	text-align:justify;
+	}
+	#texte ul{
+	font-weight:bold;
+	list-style: url(../images/puce.gif);
+	}
+	#texte li{
+	font-weight:normal;
+	}
+	
+	#texte a{
+	text-decoration:none;
+	color:#8c7142;
+	font-weight:bolder;
+	font-size:1.2em;
+	}
+	#texte a:hover{
+	color:#000000;
+	}
+	#texte dt {
+		font-weight: bold;
+		font-size: 1.2em;
+		margin-bottom: 0.5em;
+		margin-left: 1.5em;
+		color: #4166a8;
+		letter-spacing: 1px;
+	}
+	#texte dd {
+		margin-bottom: 1.5em;
+		margin-left: 1.5em;
+	}
+
+.groupe {
+position:relative;
+width:100%;
+text-align:right;
+clear:both;
+
+}
+	.groupe img {
+	border:#000000 2px solid;
+	}
+	
+	
+.textegroupe{
+margin-top:-15px;
+width:50%;
+float:left;
+text-align:left;
+left:0px;
+}
+	.textegroupe img{
+	margin-right:5px;
+	margin-bottom:5px;
+	}
+	.textegroupe p{
+	text-align:justify;
+	}
+	
+	
+.gdeimg {
+margin-top:-15px;
+margin-right: 10%;
+
+}
+
+.separation{
+clear:both;
+visibility:hidden;
+
+}
+
+
+/* ------------------------------------ */
+/* |           BAS DE PAGE            | */
+/* ------------------------------------ */
+
+
+#accueil {
+position:relative;
+width:882px;
+height:2.2em;
+background-color:#8d6f4c;
+margin-bottom:9px;
+margin-top:5%;
+clear:both;
+}
+
+#menu_bas ul{
+list-style:none;
+height:1.5em;
+width:70%;
+margin:0px 10px 0px 0px;
+float:right;
+text-align:right;
+}
+
+#menu_bas li{
+margin-right: 15px;
+display:inline;
+list-style:none;
+line-height:1.5em;
+}
+#menu_bas a{
+text-decoration:none;
+color:#000000;
+font-size:0.7em;
+}
+
+
+			
+
+#contactprint {
+display:none;
+}
+
+
+
+					#menucv {
+					height:20px;
+					}
+					#menucv ul{
+					list-style-type: none;
+					}
+					#menucv li{
+					list-style-type: none;
+					text-decoration:none;
+					text-indent:-5000px;
+					font-size:0px;
+					
+					}
+
+
+					.rss {
+					position:absolute;
+					top:321px;
+					right:30px;
+					height:30px;
+					width:30px;
+					background:url(../images/feed-icon-28x28.png) no-repeat;
+					}
+						.pdf {
+					position:absolute;
+					top:321px;
+					right:60px;
+					height:30px;
+					width:30px;
+					background: url(../images/pdf.png) no-repeat;
+					}
+					
+					.cvuk {
+					position:absolute;
+					top:320px;
+					right:100px;
+					height:30px;
+					width:30px;
+					background:url(../images/drapeau_us.gif) no-repeat;
+					}
+					.cvfr {
+					position:absolute;
+					top:320px;
+					right:130px;
+					height:30px;
+					width:30px;
+					background:url(../images/drapeau_fr.gif) no-repeat;
+					}
+					
+					
+				
+					
+					
+					
+					
+/* ------------------------------------ */
+/* |           formulaire          |    */
+/* ------------------------------------ */
+form {
+ 
+}
+ 
+#valid {
+width:20%;
+background:#8d6f4c;
+margin-left:10px;
+color:#FFFFFF;
+ 
+}
+ 
+fieldset{
+width:90%;
+margin-left:10px;
+}
+ 
+textarea {
+width:85%;
+height:180px;}
+ 
+label {
+font-weight:bold;
+width: 7em;
+float: left;
+text-align: right;
+margin-right: 15px;
+} 
+ 
+.alerte {
+color:#990000;
+text-transform:uppercase;
+margin-left:10%;}
+ 
+#alertevalid {
+text-indent:-5000px;
+position:relative;
+left:50px;
+height:154px;
+width:882px;
+background:url(../images/mail.gif) no-repeat left;} 
